@@ -1,7 +1,7 @@
 import unittest
 
-from QuanChemComp.core.AnalyticInteg.kinetic import kinetDefold
-from QuanChemComp.test.test_main import CALCU_PERCISION
+from pyGTOInt.core.AnalyticInteg.kinetic import kinetDefold
+from pyGTOInt.test.test_main import CALCU_PERCISION
 
 
 class Test_Kinetic(unittest.TestCase):

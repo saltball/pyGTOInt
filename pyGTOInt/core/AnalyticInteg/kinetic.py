@@ -7,10 +7,10 @@
 # ====================================== #
 
 
-from QuanChemComp.core.AnalyticInteg.gtoMath import norm_GTO, K_GTO
-from QuanChemComp.core.AnalyticInteg.overlap import _Sij
+from pyGTOInt.core.AnalyticInteg.gtoMath import norm_GTO, K_GTO
+from pyGTOInt.core.AnalyticInteg.overlap import _Sij
 
-from QuanChemComp.core.math import SQRT_PI, PI
+from pyGTOInt.core.math import SQRT_PI, PI
 
 import numba
 

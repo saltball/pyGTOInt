@@ -2,12 +2,12 @@ import unittest
 import numpy as np
 import numba
 
-from QuanChemComp.core.AnalyticInteg.kinetic import kinetDefold
-from QuanChemComp.core.AnalyticInteg.overlap import SxyzRecur as SxyzDefold
-from QuanChemComp.core.AnalyticInteg.potential.potential import gabcd
-from QuanChemComp.core.AnalyticInteg.gtoMath import K_GTO
-from QuanChemComp.test.test_main import CALCU_PERCISION
-from QuanChemComp.core.AnalyticInteg.potential.potential import phi_2c1e
+from pyGTOInt.core.AnalyticInteg.kinetic import kinetDefold
+from pyGTOInt.core.AnalyticInteg.overlap import SxyzRecur as SxyzDefold
+from pyGTOInt.core.AnalyticInteg.potential.potential import gabcd
+from pyGTOInt.core.AnalyticInteg.gtoMath import K_GTO
+from pyGTOInt.test.test_main import CALCU_PERCISION
+from pyGTOInt.core.AnalyticInteg.potential.potential import phi_2c1e
 
 spec = [
     ("id", numba.int32),

@@ -2,8 +2,8 @@ import unittest
 
 import numpy as np
 
-from QuanChemComp.core.AnalyticInteg.overlap import *
-from QuanChemComp.test.test_main import CALCU_PERCISION
+from pyGTOInt.core.AnalyticInteg.overlap import *
+from pyGTOInt.test.test_main import CALCU_PERCISION
 
 a_array = np.array([0, 0, 0])
 b_array = np.array([0, 0, 0])

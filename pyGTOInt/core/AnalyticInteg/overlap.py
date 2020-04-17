@@ -9,7 +9,7 @@
 import sympy
 import numba
 
-from QuanChemComp.core.math import Factorial, DoubleFactorial
+from pyGTOInt.core.math import Factorial, DoubleFactorial
 
 # 所有符号
 xa, ya, za, xb, yb, zb, rA, rB, a, b = sympy.symbols('x_a, y_a, z_a, x_b, y_b, z_b, r_A, r_B, a, b', real=True)
@@ -114,7 +114,7 @@ def _SxyzPrint(la=2, ma=0, na=0, lb=3, mb=0, nb=0):
     print("I={}".format(Ix))
 
 
-from QuanChemComp.core.math import SQRT_PI, PI
+from pyGTOInt.core.math import SQRT_PI, PI
 
 sqrt_pi = SQRT_PI
 
@@ -220,7 +220,7 @@ def _IDefold(a, b, PA_x, PB_x, la, lb):
         return Ix
 
 
-from QuanChemComp.core.AnalyticInteg.gtoMath import norm_GTO, K_GTO
+from pyGTOInt.core.AnalyticInteg.gtoMath import norm_GTO, K_GTO
 
 
 @numba.njit

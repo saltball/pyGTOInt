@@ -6,9 +6,9 @@
 # ALL RIGHTS ARE RESERVED UNLESS STATED.
 # ====================================== #
 
-from QuanChemComp.core.AnalyticInteg.GammaFunc import FmDefold
-from QuanChemComp.core.math import Comb, PI, SQRT_PI, PI5_2
-from QuanChemComp.core.AnalyticInteg.gtoMath import norm_GTO, K_GTO
+from pyGTOInt.core.AnalyticInteg.GammaFunc import FmDefold
+from pyGTOInt.core.math import Comb, PI, SQRT_PI, PI5_2
+from pyGTOInt.core.AnalyticInteg.gtoMath import norm_GTO, K_GTO
 import numba
 import numpy as np
 

@@ -11,7 +11,7 @@ import numpy as np
 import numba
 import sympy
 
-from QuanChemComp.core.math import DoubleFactorial, SQRT_PI, PI
+from pyGTOInt.core.math import DoubleFactorial, SQRT_PI, PI
 
 sqrt_pi = SQRT_PI  # sqrt(pi)
 pi = PI

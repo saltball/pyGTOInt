@@ -400,7 +400,7 @@ def _FmPrint(m, w=0):
             str1 = str1 + "+\n{}*w**{}".format(item, index + 1)
         str1 = str1 + "))**({})".format(m + 0.5)
         print(str1)
-        from QuanChemComp.core.math import DoubleFactorial
+        from pyGTOInt.core.math import DoubleFactorial
         import math
         str0 = "else:\n return ({}/((2*w)**({})))".format((DoubleFactorial(2 * m - 1)) * (math.pi / 2) ** 0.5, m + 0.5)
         print(str0)
